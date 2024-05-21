@@ -1,0 +1,1023 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+}
+.header{
+    display: flex;
+    justify-content: right;
+    height: 45px;
+    background-color: #eae8dc;
+}
+.header > a{
+    margin-top: 10px;
+    margin-right: 35px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #505050;
+}
+
+a:nth-child(4){
+    margin-right: 100px;
+}
+.logo{
+    margin-top: 18px;
+    margin-left: 184px;
+    width: 290px;
+    height: 76px;
+}
+.nav{
+    margin-top: 12px;
+    border: 1px solid #e8e8e8;
+    height: 50px;
+    background: #fff;
+}
+.nav > button{
+    padding-top: 13px;
+    display: flex;
+    margin-left: 184px;
+    background-color: #d8c3a4;
+    width: 289px;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.nav > button > img{
+    margin-left: 10px;
+}
+.nav > button > a{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.section {
+    margin-left: 184px; /* Frame 56 */
+}
+
+.banner{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.banner > img{
+    width: 1553px;
+}
+/* Group 508 */
+.card1 {
+    position: absolute;
+    width: 279px;
+    height: 436px;
+    left: 265px;
+    top: 877px;
+}
+
+/* Group 509 */
+.card2 {
+    position: absolute;
+    width: 279px;
+    height: 436px;
+    left: 634px;
+    top: 874px;
+}
+.card3{
+    position: absolute;
+    width: 279px;
+    height: 436px;
+    left: 1003px;
+    top: 877px;
+}
+
+.card4{
+position: absolute;
+width: 279px;
+height: 436px;
+left: 1372px;
+top: 874px;
+}
+.text4{
+width: 290px;
+    height: 76px;
+}
+
+.backgroundcardsGenres {
+    position: absolute;
+    width: 1920px;
+    height: 514px;
+    left: 0px;
+    top: 835.64px;
+    background: #F9F8F3;
+}
+
+.backgroundcardsAuthors {
+    /* задний фон */
+
+    position: absolute;
+    width: 1919px;
+    height: 514px;
+    left: 1px;
+    top: 1510px;
+    /* Color_3 White */
+    background: #F9F8F3;
+}
+.Acard1 {
+    position: absolute;
+    width: 279px;
+    height: 436px;
+    left: 267px;
+    top: 1549px;
+    text-decoration: none;
+}
+.Acard2{
+position: absolute;
+width: 279px;
+height: 436px;
+left: 636px;
+top: 1549px;
+
+}
+.Acard3{
+    /* Group 558 */
+
+position: absolute;
+width: 279px;
+height: 436px;
+left: 1005px;
+top: 1549px;
+
+
+}
+.Acard4{
+    /* Group 559 */
+
+position: absolute;
+width: 279px;
+height: 436px;
+left: 1374px;
+top: 1549px;
+}
+
+.icon1 {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+    position: absolute;
+    width: 332px;
+    height: 54px;
+    left: 316.64px;
+    top: 652px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #2D170C;
+}
+.imageIcon1{
+    width: 30px;
+    height: 30px;
+}
+
+.icon2 {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+    position: absolute;
+    width: 332px;
+    height: 54px;
+    left: 843.64px;
+    top: 652px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #2D170C;
+}
+.icon3 {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+    position: absolute;
+    width: 332px;
+    height: 54px;
+    left: 1370.28px;
+    top: 652px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #2D170C;
+}
+.footerBackground {
+    /* задний фон */
+
+    position: absolute;
+    width: 1920px;
+    height: 218px;
+    left: 0px;
+    top: 2140px;
+    /* Color_3 White */
+    background: #F9F8F3;
+}
+.footerText {
+    /* Group 555 */
+
+    position: absolute;
+    width: 421px;
+    height: 16px;
+    left: 754px;
+    top: 2225px;
+}
+.textgenres {
+    /* Жанры */
+
+    position: absolute;
+    left: 9.64%;
+    right: 85.62%;
+    top: 800.89px;
+    bottom: 65.88%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #505050;
+}
+.textgenresGenres {
+    position: absolute;
+    left: 15.48%;
+    right: 85.78%;
+    top: 250px;
+    bottom: 75.54%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #505050;
+}
+.textAuthors {
+    /* Авторы */
+
+    position: absolute;
+    left: 9.64%;
+    right: 85.36%;
+    top: 1480px;
+    bottom: 0.76%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #505050;
+}
+.block1 {
+    /* Group 562 */
+
+    position: absolute;
+    width: 624px;
+    height: 90px;
+    left: 470px;
+    top: 273px;
+}
+.block2 {
+    /* Group 563 */
+
+    position: absolute;
+    width: 624px;
+    height: 90px;
+    left: 472px;
+    top: 398px;
+}
+.block3 {
+    /* Group 564 */
+
+    position: absolute;
+    width: 624px;
+    height: 90px;
+    left: 472px;
+    top: 523px;
+}
+.block4 {
+    /* Group 565 */
+
+    position: absolute;
+    width: 624px;
+    height: 90px;
+    left: 472px;
+    top: 648px;
+}
+.nameOfGenre1 {
+    /* Детектив */
+
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 470px;
+    top: 273px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+.buttonNameOfGenre1 {
+    background-color: #D8C3A4;
+    color: white;
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 893px;
+    top: 273px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+      border: 2px solid #D8C3A4;
+  border-radius: 4px 4px;
+    text-align:center;
+}
+.nameOfGenre2 {
+    /* Детектив */
+
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 472px;
+    top: 398px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+.buttonNameOfGenre2 {
+    /* Group 561 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 895px;
+    top: 398px;
+     font-size: 14px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+      border: 2px solid #D8C3A4;
+  border-radius: 4px 4px;
+    text-align:center;
+    background-color: #D8C3A4;
+    color: white;
+}
+.nameOfGenre3 {
+    /* Детектив */
+ 
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 472px;
+    top: 523px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+.buttonNameOfGenre3 {
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 895px;
+    top: 523px;
+     text-decoration: none;
+    font-family: 'Montserrat';
+      border: 2px solid #D8C3A4;
+  border-radius: 4px 4px;
+    text-align:center;
+    background-color: #D8C3A4;
+    color: white;
+}
+
+.nameOfGenre4 {
+    /* Детектив */
+
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 472px;
+    top: 648px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+.buttonNameOfGenre4 {
+    /* Group 561 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 895px;
+    top: 648px;
+     text-decoration: none;
+    font-family: 'Montserrat';
+      border: 2px solid #D8C3A4;
+  border-radius: 4px 4px;
+    text-align:center;
+    background-color: #D8C3A4;
+    color: white;
+}
+.footerTextGenres {
+    /* Group 555 */
+
+    position: absolute;
+    width: 421px;
+    height: 16px;
+    left: 754px;
+    top: 877px;
+}
+.openAllAuthorsIndex {
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 1547px;
+    top: 1466.64px;
+    text-decoration:none; 
+    color:#505050;
+}
+.openAllGenresIndex {
+    /* Group 514 */
+    /* Group 513 */
+
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 1547px;
+    top: 802.64px;
+    text-decoration:none; 
+    color:#505050;
+}
+/*Список авторов*/
+.FIOAuthor1 {
+    /* Аверин Роман Васильевич */
+
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 470px;
+    top: 273px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+.dateAuthor1{
+    /* 19.11.2000-Н.В. */
+
+    position: absolute;
+    width: 113px;
+    height: 20px;
+    left: 470px;
+    top: 302px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #505050;
+}
+.buttonAuthor1 {
+    /* Group 561 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 893px;
+    top: 273px;
+}
+.FIOAuthor2 {
+    /* Аверин Роман Васильевич */
+
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 472px;
+    top: 398px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+
+.dateAuthor2 {
+    /* 19.11.2000-Н.В. */
+
+    position: absolute;
+    width: 113px;
+    height: 20px;
+    left: 472px;
+    top: 427px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #505050;
+}
+
+.buttonAuthor2 {
+    /* Group 561 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 895px;
+    top: 398px;
+}
+.FIOAuthor3 {
+    /* Аверин Роман Васильевич */
+
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 472px;
+    top: 523px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+
+.dateAuthor3 {
+    /* 19.11.2000-Н.В. */
+
+    position: absolute;
+    width: 113px;
+    height: 20px;
+    left: 472px;
+    top: 552px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #505050;
+}
+
+.buttonAuthor3 {
+    /* Group 561 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 895px;
+    top: 523px;
+}
+.FIOAuthor4 {
+    /* Аверин Роман Васильевич */
+
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 474px;
+    top: 648px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+
+.dateAuthor4 {
+    /* 19.11.2000-Н.В. */
+
+    position: absolute;
+    width: 113px;
+    height: 20px;
+    left: 474px;
+    top: 677px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #505050;
+}
+
+.buttonAuthor4 {
+    /* Group 561 */
+
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 897px;
+    top: 648px;
+}
+.textAuthorsAuthors {
+    position: absolute;
+    left: 15.48%;
+    right: 85.78%;
+    top: 25.58%;
+    bottom: 75.54%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #505050;
+}
+.AuthorsNameAuthor {
+    /* Аверин Роман Васильевич */
+
+    position: absolute;
+    width: 292px;
+    height: 24px;
+    left: 861px;
+    top: 283px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+}
+.AuthorsDateAuthor {
+    /* Годы жизни: 19.11.2000-Н.В. */
+
+    position: absolute;
+    width: 219px;
+    height: 20px;
+    left: 861px;
+    top: 307px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #505050;
+}
+.descriptionAuthor {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 861px;
+    top: 337px;
+    background: #F9F8F3;
+    border-radius: 5px;
+}
+.AuthorsUpperText {
+    /* Автор */
+
+    position: absolute;
+    width: 77px;
+    left: 181px;
+    top: 250.45px;
+    bottom: 81.36%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #505050;
+}
+.AuthorCardBackGround1 {
+    /* image 70 */
+
+    position: absolute;
+    left: 200px;
+    width: 200px;
+    top: 700.89px;
+    bottom: -50px;
+    background: #EAE8DC;
+    box-shadow: 4px 4px 6px rgba(158, 146, 128, 0.25);
+    border-radius: 5px;
+}
+.AuthorCardImage1 {
+    /* image 69 */
+
+    position: absolute;
+    left: 16.67%;
+    right: 72.92%;
+    top: 40.02%;
+    bottom: 33.36%;
+    background: url(image.png);
+    border-radius: 5px;
+}
+.footerShortBackgroound {
+    position: absolute;
+    width: 1920px;
+    height: 218px;
+    left: 0px;
+    top: 1107px;
+    /* Color_3 White */
+    background: #F9F8F3;
+}
+.footerShort {
+    /* Group 556 */
+    position: absolute;
+    width: 421px;
+    height: 16px;
+    left: 754px;
+    top: 1192px;
+}
+.AuthorCardBottomBackground1 {
+    /* Group 547 */
+
+    position: absolute;
+    width: 200px;
+    height: 125px;
+    left: 50px;
+    top: 200px;
+}
+.AuthorCardGenre1card1 {
+    /* Group 545 */
+
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 0px;
+    top: 225px;
+      font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.02em;
+    color: #505050;
+    text-decoration: none;
+}
+.AuthorImage {
+    /* image 69 */
+
+    position: absolute;
+    left: 600px;
+    right: 800px;
+    top: 283px;
+    bottom: 873px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+.nameOfAuthorBooks {
+    /* Книги автора */
+
+    position: absolute;
+    width: 171px;
+    left: calc(50% - 171px/2 - 693.5px);
+    top: 69.68%;
+    bottom: 53.13%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #505050;
+}
+.AuthorCardBackGround2 {
+    /* image 70 */
+
+    position: absolute;
+    left: 550px;
+    right: 1150px;
+    top: 700.89px;
+    bottom: -50px;
+    background: #EAE8DC;
+    box-shadow: 4px 4px 6px rgba(158, 146, 128, 0.25);
+    border-radius: 5px;
+}
+.authorCardImage2{
+    /* image 69 */
+
+position: absolute;
+left: 30.73%;
+right: 58.85%;
+top: 51.02%;
+bottom: 33.36%;
+
+background: url(image.png);
+border-radius: 5px;
+
+}
+.AuthorCardBottomBackground2 {
+    /* Group 547 */
+
+    position: absolute;
+    width: 200px;
+    height: 125px;
+    left: 20px;
+    top: 200px;
+}
+.AuthorCardText2 {
+    /* Шерлок Холмс */
+
+    position: absolute;
+    left: 0.19%;
+    right: 25.46%;
+    top: 0px;
+    bottom: 30.04%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.02em;
+    color: #505050;
+    text-decoration: none;
+}
+.AuthorCardGenre1card2 {
+    /* Group 545 */
+
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 0px;
+    top: 25px;
+      font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+    letter-spacing: -0.02em;
+    color: #505050;
+    text-decoration: none;
+}
+.AuthorCardBackGround3 {
+    /* image 70 */
+
+    position: absolute;
+    left: 875px;
+    right: 825px;
+    top: 700.89px;
+    bottom: -50px;
+    background: #EAE8DC;
+    box-shadow: 4px 4px 6px rgba(158, 146, 128, 0.25);
+    border-radius: 5px;
+}
+.AuthorCardBackGround4 {
+    /* image 70 */
+
+    position: absolute;
+    left: 1200px;
+    right: 500px;
+    top: 700.89px;
+    bottom: -50px;
+    background: #EAE8DC;
+    box-shadow: 4px 4px 6px rgba(158, 146, 128, 0.25);
+    border-radius: 5px;
+}
+.AuthorCardBackGround5 {
+    /* image 70 */
+
+    position: absolute;
+    left: 1525px;
+    right: 175px;
+    top: 700.89px;
+    bottom: -50px;
+    background: #EAE8DC;
+    box-shadow: 4px 4px 6px rgba(158, 146, 128, 0.25);
+    border-radius: 5px;
+}
+.bookName{
+    /* Название книги */
+
+position: absolute;
+width: 279px;
+height: 39px;
+left: 806px;
+top: 271px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #505050;
+
+
+}
+.bookHead{
+    /* image 69 */
+
+position: absolute;
+width: 150px;
+height: 600px;
+left: 400px;
+top: 271px;
+
+background: url(image.png);
+border-radius: 5px; 
+
+}
+.bookAuthor{
+    /* Аверин Роман Васильевич */
+position: absolute;
+width: 288px;
+height: 24px;
+left: 806px;
+top: 325px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #505050;
+text-decoration: none;
+
+}
+.genreBook{
+    
+    position: absolute;
+    width: 85px;
+    height: 25px;
+    left: 805px;
+    top: 360px;
+     font-size: 14px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+      border: 2px solid #D8C3A4;
+  border-radius: 20px 20px;
+    text-align:center;
+    background-color: #D8C3A4;
+    color: #505050;
+}
+.dateBook{
+    /* Год издания: 2023 */
+
+position: absolute;
+width: 148px;
+height: 20px;
+left: 806px;
+top: 427px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+color: #505050;
+
+
+}
+.bookDescription{
+position: absolute;
+width: 500px;
+height: 200px;
+left: 806px;
+top: 475px;
+
+background: #F9F8F3;
+border-radius: 5px;
+
+}
